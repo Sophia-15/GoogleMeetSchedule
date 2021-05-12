@@ -4,7 +4,6 @@ from time import sleep
 import schedule
 
 
-
 # This function will open your meeting, turn off your mic and camera and enter the meeting! And will only start the code once you click the 'ok' button.
 def openmeet(url):
     pyautogui.alert('The program is running. Please do not touch anything on your computer.')
